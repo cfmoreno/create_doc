@@ -4,7 +4,9 @@ import pandas as pd
 from database_handler import DbHandler
 
 def run():
-
+    
+    df = pd.DataFrame()
+    
     try:
         ntotal = int(input('Ingrese cantidad de Pago Movil a crear: '))
     except:
@@ -36,8 +38,6 @@ def run():
         db.close()
 
         document[' '] = '' #includes an empty line for better readability on print and on excel file
-
-        df = pd.DataFrame()
 
         doc=pd.DataFrame(document , index=[n+1]).loc[n+1]
 
