@@ -1,4 +1,4 @@
-<h1>Create Doc for Firebase</h1>
+<h1>Create a Document for Firebase</h1>
 
 Script developed for automating the creation of a valid Pago Movil (Payment method in Venezuela) in Firebase which receives number of iterations to do and amount for each iteration.
 
