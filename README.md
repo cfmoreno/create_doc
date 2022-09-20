@@ -2,7 +2,7 @@
 
 Script developed for automating the creation of a valid Pago Movil (Payment method in Venezuela) in Firebase which receives number of iterations to do and amount for each iteration.
 
-This script was created to automate the QA Process of Payment Methods testing on an Online Pharmacy Web Page and Mobile App (iOS & Android). To proceed with the order, there should be a document in firebase that says "Payment completed" this is a JSON with three parameters. Script creates the JSON and uploads it to Firebase.
+This script was created to automate the QA Process of Payment Methods testing on an Online Pharmacy Web Page Client and Mobile App (iOS & Android). To proceed with the order, there should be a document in firebase that says "Payment completed" this is a JSON with three parameters. Script creates the JSON and uploads it to Firebase.
 
 With this script we are able to automate and complete the process a lot faster and efficiently
 
