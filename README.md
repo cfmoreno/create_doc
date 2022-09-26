@@ -10,13 +10,13 @@ With this script we are able to automate and complete the process a lot faster a
 
 0. Any version of Python >= 3.9 will be sufficient
 
-1. Use pip install to install the requirements.txt using the following command: "pip install -r requirements.txt" on the project root folder
+1. Use pip install to install the requirements.txt using the following command: `pip install -r requirements.txt` on the project root folder
 
 2. It is required that the database_handler.py file is present in the same path as the add_doc.py file
 
 3. A credentials json should be created from firebase and added as 'cred.json' on the same path as add_doc.py file
 
-4. Run app.py file with "py add_doc.py" or "python3 app.py"
+4. Run app.py file with `py add_doc.py` or `python3 add_doc.py`
 
 <h1>How to use it</h1>
 
