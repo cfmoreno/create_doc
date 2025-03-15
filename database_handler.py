@@ -1,4 +1,3 @@
-# db_handler.py
 import firebase_admin
 from firebase_admin import credentials, firestore
 import logging
